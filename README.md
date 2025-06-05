@@ -88,4 +88,4 @@ This project performs end-to-end data analysis and visualization of customer sho
 
 ## Contact
 
-For questions or suggestions, please contact [Your Name] at [your.email@example.com].
+For questions or suggestions, please contact Kushal Basyal at kushalbasyal123@gmail.com
