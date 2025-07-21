@@ -194,6 +194,16 @@ SELECT
     ) AS revenue_difference
 FROM monthly_category_revenue;
 
+-- 16. Which shopping mall has the highest number of unique customers and total revenue?
+SELECT 
+    shopping_mall,
+    COUNT(DISTINCT customer_id) AS unique_customers,
+    SUM(Revenue) AS total_revenue
+FROM
+    sales_data
+GROUP BY shopping_mall
+ORDER BY unique_customers DESC;
+
 
 
 
